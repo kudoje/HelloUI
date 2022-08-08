@@ -1,0 +1,29 @@
+@media (max-width: 1440px){
+    .menu_item:not(:last-child){
+        margin: 0px 40px 0px 0px;
+    }
+}
+
+@media (max-width: 920px){
+    .header_menu{
+        display: none;
+    }
+    .sign_button{
+        display: none;
+    }
+    .header_container{
+        min-height: 50px;
+        justify-content: center;
+    }
+
+    #menu__toggle{
+       opacity: 0;     
+    }
+    .menu__btn{
+        display: flex;
+    }
+    .menu__box{
+        display: block;
+    }
+
+}

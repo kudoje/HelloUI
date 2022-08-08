@@ -1,0 +1,140 @@
+.content{
+    background-color:#ffff;
+    position: absolute;
+    width: 100%;
+    min-height: 0;
+    left: 0;
+    top: 80px;
+    z-index: 10;
+}
+.content_container{
+
+align-items: center;
+}
+
+.main_title{
+    max-width: 75%;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    color: #050038;
+    font-weight: 900;
+    font-size: calc(16px + 80 *(100vw / 1320));
+    line-height: 125%;
+}
+
+.second_title{
+    max-width: 48%;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    color: #5B5E6D;
+    font-weight: 400;
+    font-size: calc(8px + 14 *(100vw/1320));
+    line-height: 145%;   
+}
+
+.content_button{
+    
+    margin: 40px 15px 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.try_for_free_2{
+    border: 0;
+    border-radius: 30px;
+    margin: 10px 10px;
+    background-color: #0555FF;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 20px;
+    width: 208px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.discover_in_video{
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 0px 10px 40px rgba(176, 201, 253, 0.3);
+    margin: 10px 10px;
+    background-color: #fff;
+    color: #0555FF;
+    font-weight: 500;
+    font-size: 20px;
+    width: 251px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.site_illustration{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.site_icon{
+    max-width: 100%;
+}
+
+.choose_companies{
+
+}
+
+.text_companies{
+    max-width: 70%;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    color: #5B5E6D;
+    font-weight: 400;
+    font-size: calc(8px + 8 *(100vw/1320));
+    line-height: 118%;   
+}
+
+.name_companies{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+._companie{
+    margin: 5px 0 5px 0;
+    max-width: 100%;
+}
+
+._companie:not(:last-child){
+    margin-right: 25px ;
+}
+
+.line_dec{
+    margin-top: 65px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.line_decs{
+    width: 30px;
+    height: 3px;
+    border-radius: 1px;
+}
+
+.line_decs:not(:last-child){
+    margin: 0px 5px ;
+}
+
+.line_dec1{
+    background-color: #050038;
+}
+
+.line_dec2{
+    background-color: #05003880;
+    opacity: 50%;
+}
+
+.line_dec3{
+    background-color: #C4C4C4;
+}
+
+
